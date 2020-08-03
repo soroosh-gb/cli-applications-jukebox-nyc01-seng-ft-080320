@@ -53,7 +53,6 @@ def prompt()
 end
 
   def run(songs)
-  # help()
   input = prompt()
   
     if input == "list"
@@ -67,11 +66,7 @@ end
       input = prompt()
     else
       exit_jukebox()
-      # puts "Invalid command"
-      # help()
-      # input = prompt()
     end
-    
 end
 
   
